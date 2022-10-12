@@ -1,0 +1,10 @@
+---
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: car-demo
+  namespace: flux-system
+spec:
+  image: fullaware/car-demo
+  interval: 1m0s
+
